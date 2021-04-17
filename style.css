@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    flex-wrap: nowrap;
+
+    margin: 0 25px;
+
+    /* background-color: darkblue; */
+}
+
+/* Header code */
 header{
     width: 100%;
 
@@ -18,7 +30,8 @@ header{
     font-family: Heebo;
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 2.25rem;
     /* line-height: 53px; */
     /* identical to box height */
 
@@ -37,16 +50,223 @@ nav{
 nav a{
     text-decoration: none;
     /* margin: 0 10px; */
-    padding:0 20t px;
+    padding:0 20px;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    /* font-size: 0.9375rem; */
+    font-size: 1.5rem;
     /* line-height: 36px; */
     /* identical to box height */
 
     /* Gray 1 */
 
     color: #333333;
+}
+
+nav a:nth-last-child(1){
+    text-decoration: none;
+    /* margin: 0 10px; */
+    padding-right:0;
+
+    /* background-color: #333333; */
+
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+/* Main Home Saction */
+._home-info-top{
+    width: 44%;
+    min-width: 500px;
+    
+    margin-top: 50px;
+}
+
+._home-info{
+    margin-left: 20%;
+}
+
+._home-info-top >a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 27px; */
+    /* identical to box height */
+
+    text-decoration: none;
+
+    width: 200px;
+
+
+    color: #2D9CDB;
+}
+
+._home-info-top> div >h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 2.8125rem; */
+    font-size: 3rem;
+    line-height: 72px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+._home-info-top >div{
+    width: 543px;
+    height: 144px;
+
+    margin-top: 10px;
+    /* background-color: darkblue; */
+
+}
+
+.top-photo{
+    margin-top: 30px;
+}
+
+/* TOP Foto */
+.top-photo > img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 17px;
+} 
+
+/* Information down */
+
+._home-info-down{
+    width: 366px;
+    /* height: 141px; */
+    margin-top: 30px;
+    /* background-color: brown; */
+}
+
+._home-info-down >h2{
+    width: 366px;
+    /* height: 141px; */
+
+    
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    /* line-height: 72px; */
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+
+._home-down-paragraph{
+    margin-top: 40px;
+}
+
+._home-down-paragraph>p{
+    width: 366px;
+    /* height: 137px; */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 27px;
+}
+
+._home-info-down p:nth-child(3){
+    width: 172px;
+    height: 21px;
+
+    margin-top: 35px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+._input{
+    /* width: 330px; */
+    width: 350px;
+    height: 57px;
+
+    padding: 15px;
+
+    margin-top: 5px;
+    /* border: none; */
+
+
+    /* Gray 6 */
+
+    border:1px solid #F2F2F2;
+
+    background: #F2F2F2;
+    border-radius: 12px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+._form{
+    margin-top: 4px;
+}
+
+._form label{
+    width: 100%;
+}
+._form button{
+    position: absolute;
+    /* background-color: brown; */
+    /* position: absolute; */
+    width: 94px;
+    height: 49px;
+
+    background: #2D9CDB;
+    border-radius: 9px;
+    margin-left: -98px;
+    margin-top:9px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+
+    border:1px solid #F2F2F2;
+
+}
+
+.submit-btn:hover{
+    cursor: pointer;
 }
