@@ -10,7 +10,10 @@ main{
     flex: 1 1;
     flex-wrap: nowrap;
 
+    width: 100%;
+
     margin: 0 25px;
+    /* background-color: cornflowerblue; */
 
     /* background-color: darkblue; */
 }
@@ -269,4 +272,133 @@ nav a:hover{
 
 .submit-btn:hover{
     cursor: pointer;
+}
+
+/* Services Section */
+
+._services-section,.works-section,.employees-section,.client-section{
+    /* margin-top: 100px; */
+
+    width: 80%;
+
+    margin:50px auto;
+    /* background-color: chocolate; */
+}
+
+._services-section>h2{
+    width: 346px;
+    height: 108px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.services-container{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex: 1 1;
+
+
+    margin-top: 20px;
+}
+
+.svg-image{
+    width: 67px;
+    height: 67px;
+    border-radius: 16px;
+}
+
+.svg-image1{
+    background: #2D9CDB;
+}
+
+.svg-image2{
+    background: #27AE60;
+}
+
+.svg-image3{
+    background: #EB5757;;
+}
+
+.services> .paragraph{
+    width: 273px;
+    height: 96px;
+
+    margin-top: 20px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+.services>h3{
+    width: 160px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.services>button{
+    width: 116px;
+    height: 42px;
+
+    margin-top: 20px;
+
+
+    background: #E0E0E0;
+    border-radius: 12px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    border: 1px solid #E0E0E0;;
+
+
+    color: #828282;
+}
+
+#blue-btn{
+    width: 116px;
+    height: 42px;
+
+
+    background: #2D9CDB;
+    border-radius: 12px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    border: 1px solid #2D9CDB;
+
+    color: #FFFFFF;
 }
