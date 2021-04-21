@@ -441,3 +441,120 @@ nav a:hover{
 ._services-section button{
     cursor: pointer;
 }
+
+/* ===================================WORK SECTION========================================= */
+
+.works-section>h2{
+    width: 448px;
+    height: 108px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.works-container{
+    width: 100%;
+    /* background-color: violet; */
+
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    column-gap: 10px;
+
+    
+}
+
+.work-photo--container{
+
+    width: 510px;
+    height: 445px;
+
+    /* Red */
+
+    /* background: #EB5757; */
+    border-radius: 12px;
+}
+
+.work-photo--container>img{
+    width: 510px;
+    height: 445px;
+    border-radius: 12px;
+}
+
+.work p:nth-child(2){
+    margin-top: 10px;
+
+    width: 186.98px;
+    height: 26.95px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+.work p:nth-child(3){
+    /* background-color: tomato; */
+
+    width: 367.77px;
+    height: 45.34px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.down-card{
+    margin-top: 90px;
+}
+
+
+/* SEE MORE */
+.see-more-container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-content: center;
+    flex-flow: row-reverse;
+
+}
+
+.see-more-container >p{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+    margin-right: 10px;
+
+    color: #2D9CDB;
+}
+
+.material-icons.md-36{
+    font-size: 36px;
+    color: #2D9CDB;
+}
+
