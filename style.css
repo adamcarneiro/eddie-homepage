@@ -721,3 +721,89 @@ blockquote{
     color: #828282;
 
 }
+
+
+/* =======================================FOOTER========================================== */
+
+footer{
+    /* display: flex;
+    justify-content: space-around; */
+
+    padding-top: 30px;
+
+    background: #100E1D;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer a{
+    text-decoration: none;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.social-mideas >h2{
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 53px;
+    /* identical to box height */
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+
+.icons-container img{
+    margin-left: 5px;
+}
+
+.search-container >p{
+
+    width: 172px;
+    height: 21px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+
+#developed{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F2F2F2;
+
+}
