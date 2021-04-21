@@ -641,4 +641,83 @@ nav a:hover{
 }
 
 
+/* =======================================CLIENTS========================================== */
 
+.client-section{
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    width: 900px;
+    height: 162px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+
+.client-container{
+    display: flex;
+}
+
+.client-photo > img{
+    width: 90px;
+    height: 90px;
+
+    border-radius: 14px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.client-container{
+    margin-top: 20px;
+}
+
+.client-information{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.client-information p:nth-child(1){
+    width: 140px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+
+
+.client-information p:nth-child(2){
+    width: 191px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* Gray 3 */
+
+    color: #828282;
+
+}
