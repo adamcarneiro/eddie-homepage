@@ -18,7 +18,7 @@ main{
     /* background-color: darkblue; */
 }
 
-/* Header code */
+/* ======================================= Header code=======================================*/
 header{
     width: 100%;
 
@@ -81,7 +81,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-/* Main Home Saction */
+/*======================================= Main Home Saction =================================*/
 ._home-info-top{
     width: 44%;
     min-width: 500px;
@@ -274,7 +274,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-/* Services Section */
+/*======================================= Services Saction ===================================*/
 
 ._services-section,.works-section,.employees-section,.client-section{
     /* margin-top: 100px; */
@@ -806,5 +806,4 @@ footer{
     text-align: center;
 
     color: #F2F2F2;
-
 }
