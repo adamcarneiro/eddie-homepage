@@ -10,12 +10,15 @@ main{
     flex: 1 1;
     flex-wrap: nowrap;
 
+    /* width: 100%; */
+
     margin: 0 25px;
+    /* background-color: cornflowerblue; */
 
     /* background-color: darkblue; */
 }
 
-/* Header code */
+/* ======================================= Header code=======================================*/
 header{
     width: 100%;
 
@@ -78,7 +81,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-/* Main Home Saction */
+/*======================================= Main Home Saction =================================*/
 ._home-info-top{
     width: 44%;
     min-width: 500px;
@@ -270,4 +273,537 @@ nav a:hover{
 .submit-btn:hover{
     cursor: pointer;
 }
-s
+
+/*======================================= Services Saction ===================================*/
+
+._services-section,.works-section,.employees-section,.client-section{
+    /* margin-top: 100px; */
+
+    width: 80%;
+
+    margin:50px auto;
+    /* background-color: chocolate; */
+}
+
+._services-section>h2{
+    width: 346px;
+    height: 108px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+._services-section{
+    margin-top: 120px;
+}
+
+.services > h3{
+    margin-top: 20px;
+}
+
+.services-container{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.svg-image{
+    width: 67px;
+    height: 67px;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-image1,.svg-image2,.svg-image3{
+    color: white;
+}
+
+.svg-image1{
+    background: #2D9CDB;
+}
+
+.svg-image2{
+    background: #27AE60;
+}
+
+.svg-image3{
+    background: #EB5757;;
+}
+
+.services> .paragraph{
+    width: 273px;
+    height: 96px;
+
+    margin-top: 20px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+.services>h3{
+    width: 160px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.services>button{
+    width: 116px;
+    height: 42px;
+
+    margin-top: 20px;
+
+
+    background: #E0E0E0;
+    border-radius: 12px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    border: 1px solid #E0E0E0;;
+
+
+    color: #828282;
+}
+
+#blue-btn{
+    width: 116px;
+    height: 42px;
+
+
+    background: #2D9CDB;
+    border-radius: 12px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    border: 1px solid #2D9CDB;
+
+    color: #FFFFFF;
+}
+
+.services{
+    width: 320px;
+    height: 332px;
+
+    padding: 20px;
+}
+
+.services:hover{
+    /* width: 321px;
+    height: 422px; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+
+    cursor: pointer;
+}
+
+._services-section button{
+    cursor: pointer;
+}
+
+/* ===================================WORK SECTION========================================= */
+
+.works-section>h2{
+    width: 448px;
+    height: 108px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.works-container{
+    width: 100%;
+    /* background-color: violet; */
+
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    column-gap: 10px;
+
+    
+}
+
+.work-photo--container{
+
+    width: 510px;
+    height: 445px;
+
+    /* Red */
+
+    /* background: #EB5757; */
+    border-radius: 12px;
+}
+
+.work-photo--container>img{
+    width: 510px;
+    height: 445px;
+    border-radius: 12px;
+}
+
+.work p:nth-child(2){
+    margin-top: 10px;
+
+    width: 186.98px;
+    height: 26.95px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+.work p:nth-child(3){
+    /* background-color: tomato; */
+
+    width: 367.77px;
+    height: 45.34px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.down-card{
+    margin-top: 90px;
+}
+
+
+/* SEE MORE */
+.see-more-container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-content: center;
+    flex-flow: row-reverse;
+
+}
+
+.see-more-container >p{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+    margin-right: 10px;
+
+    color: #2D9CDB;
+}
+
+.material-icons.md-36{
+    font-size: 36px;
+    color: #2D9CDB;
+}
+
+
+/* +================================EMPLOYES============================================= */
+
+#meet{
+    width: 280px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #EB5757;
+}
+
+.employees-section{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.content{
+    margin-top: 155px;
+}
+
+.content>h2{
+    width: 280px;
+    height: 162px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.content >p{
+    width: 273px;
+    height: 48px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.employees-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    column-gap: 12px;
+
+}
+
+.employees-photo{
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+#photo3{
+    grid-column: 1/2;
+    grid-row: 1/4;
+
+    justify-content: center;
+    align-self: center;
+}
+
+
+/* =======================================CLIENTS========================================== */
+
+.client-section{
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    width: 900px;
+    height: 162px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 54px;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+
+.client-container{
+    display: flex;
+}
+
+.client-photo > img{
+    width: 90px;
+    height: 90px;
+
+    border-radius: 14px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.client-container{
+    margin-top: 20px;
+}
+
+.client-information{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.client-information p:nth-child(1){
+    width: 140px;
+    height: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+
+
+.client-information p:nth-child(2){
+    width: 191px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* Gray 3 */
+
+    color: #828282;
+
+}
+
+
+/* =======================================FOOTER========================================== */
+
+footer{
+    /* display: flex;
+    justify-content: space-around; */
+
+    padding-top: 30px;
+
+    background: #100E1D;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer a{
+    text-decoration: none;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 36px */
+
+
+    color: #FFFFFF;
+}
+
+.social-mideas >h2{
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 53px;
+    /* identical to box height */
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+
+.icons-container img{
+    margin-left: 5px;
+}
+
+.search-container >p{
+
+    width: 172px;
+    height: 21px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+
+#developed{
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F2F2F2;
+}
