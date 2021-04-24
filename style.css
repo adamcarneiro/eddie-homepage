@@ -326,8 +326,6 @@ nav a:hover{
 
     margin:50px auto;
     /* background-color: chocolate; */
-
-    background-color: hotpink;
 }
 
 ._services-section>h2{
@@ -501,13 +499,13 @@ nav a:hover{
 /* ===================================WORK SECTION========================================= */
 
 .works-section>h2{
-    width: 448px;
-    height: 108px;
+    max-width: 448px;
+    /* height: 108px; */
 
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.25rem;
+    font-size: 2.25em;
     line-height: 54px;
 
     /* Gray 1 */
@@ -516,28 +514,37 @@ nav a:hover{
 }
 
 .works-container{
-    width: 100%;
-    /* background-color: violet; */
 
-    margin-top: 10px;
+    /* display: none; */
+
+    /* width: 100%; */
+
+
+    /* background-color: rgb(0, 0, 0); */
+
+    /* margin-top: 10px;*/
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
+
 }
 
 .work{
-    width: 100%;
+    /* background-color: lime;
+    max-width: 348px; */
+    min-width: 100%;
 }
 
 
 .work-photo--container>img{
     /* width: 510px; */
 
-    width: 100%;
-    max-width: 500px;
+    max-width: 90%;
+    /* max-width: 500px; */
 
     /* height: 445px; */
     height: auto;
@@ -546,6 +553,8 @@ nav a:hover{
 
 .work p:nth-child(2){
     margin-top: 10px;
+
+    max-width: 190px;
 
     /* width: 186.98px;
     height: 26.95px; */
@@ -559,19 +568,20 @@ nav a:hover{
     /* Gray 3 */
 
     color: #828282;
-
 }
 
 .work p:nth-child(3){
     /* background-color: tomato; */
 
-    width: 367.77px;
-    height: 45.34px;
+    /* max-width: 367.77px; */
+    /* height: 45.34px; */
+
+    min-width: 30%;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 36px;
 
     /* Gray 1 */
