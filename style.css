@@ -15,9 +15,6 @@ main{
     background-color: #EB5757; */
 
     margin: 0 25px;
-
-   background-color: #255875;
-
 }
 
 /* ======================================= Header code=======================================*/
@@ -29,11 +26,6 @@ header{
     justify-content: space-between;
     padding: 25px;
     align-items: center;
-    display: none;
-}
-
-footer{
-    display: none;
 }
 
 .logo{
@@ -99,15 +91,10 @@ nav a:hover{
     min-width: 483px; */
 
     font-size: 1rem;
-
-    background-color: #EB5757;
-
 }
 
 ._home-info{
     padding-left: 5%;
-
-    background-color: antiquewhite;
 }
 
 ._home-info-top >a{
@@ -498,6 +485,7 @@ nav a:hover{
 
 /* ===================================WORK SECTION========================================= */
 
+
 .works-section>h2{
     max-width: 448px;
     /* height: 108px; */
@@ -645,6 +633,8 @@ nav a:hover{
     flex-wrap: wrap;
 
     justify-content: space-between;
+
+    /* min-width: 100%; */
 }
 
 .content{
@@ -710,11 +700,12 @@ nav a:hover{
 .client-section{
     display: flex;
     flex-direction: column;
+    /* min-width: 100%; */
 }
 
 blockquote{
-    width: 900px;
-    height: 162px;
+    max-width: 650px;
+    /* height: 162px; */
 
     font-family: Poppins;
     font-style: normal;
@@ -725,7 +716,6 @@ blockquote{
     /* Gray 1 */
 
     color: #333333;
-
 }
 
 .client-container{
@@ -747,6 +737,8 @@ blockquote{
 .client-information{
     margin-left: 15px;
     margin-top: 10px;
+
+    /* min-width: 100%; */
 }
 
 .client-information p:nth-child(1){
@@ -759,8 +751,6 @@ blockquote{
     font-size: 1.5rem;
     line-height: 36px;
     /* identical to box height */
-
-
     /* Gray 1 */
 
     color: #333333;
@@ -769,8 +759,8 @@ blockquote{
 
 
 .client-information p:nth-child(2){
-    width: 191px;
-    height: 27px;
+    max-width: 230px;
+    /* height: 27px; */
 
     font-family: Poppins;
     font-style: normal;
@@ -778,7 +768,6 @@ blockquote{
     font-size: 1.25rem;
     line-height: 27px;
     /* identical to box height */
-
 
     /* Gray 3 */
 
