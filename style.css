@@ -494,7 +494,8 @@ nav a:hover{
     font-style: normal;
     font-weight: 500;
     font-size: 2.25em;
-    line-height: 54px;
+    /* line-height: 54px; */
+    line-height: 3.375rem;
 
     /* Gray 1 */
 
@@ -864,12 +865,120 @@ footer{
 
 /* =============================================REPOMSIVITE=========================================== */
 @media (max-width:500px) {
+
     /* body{
         background-color: tomato;
     } */
-    
+/* ============================Work Section============================= */
     nav{
         display:none;
+    }
+
+    ._home-info-top>a{
+        font-size: 1rem;
+    }
+
+    ._home-info-top>h2{
+        max-width: 250px;
+        font-size: 1.4em;
+        line-height: 1.6rem;
+    }
+
+    ._home-info-down >h2{
+        max-width: 200px;
+
+        font-size: 1.6rem;
+    }
+
+    ._home-down-paragraph >p{
+        /* background-color: #27AE60; */
+        /* max-width: 290px;
+        font-size: 0.8rem; */
+
+        max-width: 300px;
+        font-size: 0.7rem;
+    }
+
+    ._home-info-down >p:nth-child(3){
+        font-size: 0.7rem;
+    }
+
+    ._input{
+        font-size: 0.8rem;
+        height: 50px;
+    }
+
+    ._form button{
+            width: 80px;
+            height: 40px;
+
+            margin-left: -85px;
+            margin-top:10px;
+
+            font-size: 0.9rem;
+            background-color: #2D9CDB;
+    }
+
+
+/* =========================== Services Section ======================= */
+
+    ._services-section>h2{
+        font-size: 1.3rem;
+        max-width: 190px;
+    }
+
+    .services>h3{
+        font-size: 1.1rem;
+    }
+
+    .services-container{
+        padding: 0%;
+        margin-left: 0;
+    }
+
+    .services>.paragraph{
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
+/* ============================Work Section============================= */
+/* ============================Work Section============================= */
+/* ============================Work Section============================= */
+/* ============================Work Section============================= */
+
+    /* ============================Work Section============================= */
+
+    .works-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+
+        /* background-color: navy; */
+    }
+
+    .works-section>h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .down-card{
+        margin-top: 0;
+    }
+
+    .work{
+        margin-top: 15px;
+    }
+
+    .work>p:nth-child(2){
+
+        font-size: 0.7rem;
+    }
+
+    .work>p:nth-child(3){
+        font-size: 1rem;
     }
 
     /* ._home-info-top{
