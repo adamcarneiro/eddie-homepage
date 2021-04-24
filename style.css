@@ -241,8 +241,6 @@ nav a:hover{
     color: #828282;
 }
 
-
-
 ._input{
     /* max-width: 836px; */
     /* max-width: 366px; */
@@ -328,21 +326,28 @@ nav a:hover{
 
     margin:50px auto;
     /* background-color: chocolate; */
+
+    background-color: hotpink;
 }
 
 ._services-section>h2{
-    width: 346px;
-    height: 108px;
+    max-width: 346px;
+    /* height: 108px; */
 
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.25rem;
-    line-height: 54px;
+    font-size: 2em;
+    /* line-height: 54px; */
+    line-height: 1.6em;
 
     /* Gray 1 */
 
     color: #333333;
+
+    /* background-color: khaki; */
+
+
 }
 
 ._services-section{
@@ -351,6 +356,7 @@ nav a:hover{
 
 .services > h3{
     margin-top: 20px;
+    /* max-width: 100%; */
 }
 
 .services-container{
@@ -363,6 +369,8 @@ nav a:hover{
     padding: 20px;
 
     margin-top: 20px;
+
+    /* background-color: lightcoral; */
 }
 
 .svg-image{
@@ -392,8 +400,9 @@ nav a:hover{
 }
 
 .services> .paragraph{
-    width: 273px;
-    height: 96px;
+    max-width: 273px;
+    /* height: 96px; */
+    height: 36%;
 
     margin-top: 20px;
 
@@ -466,10 +475,12 @@ nav a:hover{
 }
 
 .services{
-    width: 320px;
+    max-width: 320px;
     height: 332px;
 
     padding: 20px;
+
+    /* background-color: lawngreen; */
 }
 
 .services:hover{
