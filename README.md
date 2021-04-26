@@ -38,7 +38,7 @@
 ## Overview
 
 ![screenshot](/screenshots/main-web.png)
-![screenshot](/screenshot/main-mobile.png)
+![screenshot](/screenshots/main-mobile.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 It is my seventh challenge from devChallenge. I like this challenge because I learned more to complete it.
